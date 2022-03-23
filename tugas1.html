@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script src="jquery-3.6.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			$(".sembunyi").click(function(){$("#gambar1").hide("slow")});
+			$(".tampil").click(function(){$("#gambar1").show("slow")});
+			$(".sembunyi2").click(function(){$("#gambar2").hide("slow")});
+			$(".tampil2").click(function(){$("#gambar2").show("slow")});
+			});
+		</script>
+	</head>
+	<body>
+		<button class="sembunyi">Sembunyikan</button>
+		<button class="tampil">Tampilkan</button>
+		<br><br>
+		<button class="sembunyi2">Sembunyikan</button>
+		<button class="tampil2">Tampilkan</button>
+		<p><img src="logoupnbaru.png" id="gambar1" width="400" height="400">
+		<img src="logohimasifo.jpg" id="gambar2" width="400" height="400">	
+	</body>
+</html>

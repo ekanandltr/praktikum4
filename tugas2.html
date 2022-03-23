@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script src="jquery-3.6.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$(".change").ready(function(){$("#kotak1").addClass("yellow")});
+			$(".change").dblclick(function(){$("#kotak1").addClass("red");});
+			$(".change2").ready(function(){$("#kotak2").addClass("yellow")});
+			$(".change2").dblclick(function(){$("#kotak2").addClass("red");});
+			$(".change3").ready(function(){$("#kotak3").addClass("yellow")});
+			$(".change3").dblclick(function(){$("#kotak3").addClass("red");});
+			$(".change4").ready(function(){$("#kotak4").addClass("yellow")});
+			$(".change4").dblclick(function(){$("#kotak4").addClass("red");});
+			});
+		</script>
+		<style type="text/css">
+			 .yellow {
+				width: 100px;
+				height: 100px;
+				background-color: yellow;
+				display: inline-block;
+				margin-left: 20px;
+			}
+			.red {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				display: inline-block;
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<p>Klik 2x pada setiap kotak untuk mengubah warnanya</p>
+		<br>
+		<div class="change" id="kotak1"></div> 
+		<div class="change2" id="kotak2"></div> 
+		<div class="change3" id="kotak3"></div>
+		<div class="change4" id="kotak4"></div>			
+	</body>
+</html>
